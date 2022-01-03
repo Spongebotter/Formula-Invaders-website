@@ -1,0 +1,419 @@
+/* NAV styling */
+
+html {
+
+    background-color: #3A3A3A;
+    overflow-x: hidden;
+}
+
+a { 
+    text-decoration: none;
+    color: #02B25E
+}
+
+a:hover { 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+nav {
+position: absolute;
+width: 100%;
+height: 88px;
+left: 0px;
+top: 0px;
+
+background: #181818;
+}
+
+nav img {
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 39px;
+top: 15px;
+
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    position: absolute;
+    width: 436px;
+    height: 46px;
+    right: 100px;
+    top: 22px;
+   
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    }
+
+.g-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 30px;
+
+    position: static;
+    width: 115px;
+    height: 46px;
+    left: 321px;
+    top: 0px;
+
+    background: #02B25E;
+    border: 2px solid #02B25E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    }
+
+.sections .g-btn a {
+    color: white;
+}
+
+/*  HOME PAGE  */
+
+
+
+h1 {
+    position: absolute;
+    left: 150px;
+    right: 600px;
+    top: 200px;
+    
+    /* Space */
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 79px;
+    /* or 79px */
+    
+    text-transform: capitalize;
+    color: #00D36E;
+}
+
+h2 {
+    position: absolute;
+    width: 575px;
+    height: 130px;
+    left: 150px;
+    right: 600px;
+    top: 400px;
+
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+/* or 33px */
+
+    text-transform: capitalize;
+
+    color: #00924C;
+}
+
+.laptop {
+    position: absolute;
+    left: 825px;
+    top: 200px;
+
+    }
+
+.laptop img {
+    width: 800px;
+    height: auto;
+}
+
+
+    /* About */
+
+.about {
+    position: absolute;
+    width: 100%;
+    height: 710px;
+    left: 0px;
+    top: 855px;
+    
+    background: #16171B; 
+    }
+
+.btn-about {
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 633px;
+    top: 430px;
+}
+
+.about p {
+    position: absolute;
+    width: 52px;
+    height: 22px;
+    bottom: 350px;
+    padding: 8px 38px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 110%;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #02B25E;
+    background: #1F2125;
+    border-radius: 44px;
+}
+
+.abt-img1 {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    left: 111.67px;
+    top: 150px;
+
+    filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.5));
+    
+}
+
+.abt-img2 {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    left: 224px;
+    top: 200px;
+
+    filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.5));
+    
+}
+
+.tile1 {
+    position: absolute;
+    width: 270px;
+    height: 215px;
+    left: 767px;
+    top: 150px;
+    
+    background: #1F2125;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 43px;
+
+}
+
+
+.tile2 {
+    position: absolute;
+    width: 270px;
+    height: 215px;
+    left: 1055px;
+    top: 150px;
+    
+    background: #1F2125;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 43px;
+
+}
+
+
+
+.tile3 {
+    position: absolute;
+    width: 270px;
+    height: 215px;
+    left: 767px;
+    top: 380px;
+    
+    background: #1F2125;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 43px;
+
+}
+
+
+.tile4 {
+    position: absolute;
+    width: 270px;
+    height: 215px;
+    left: 1055px;
+    top: 380px;
+    
+    background: #1F2125;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 43px;
+
+}
+
+.tile1 img {
+    position: absolute;
+    padding: 20px;
+}
+
+.tile2 img {
+    position: absolute;
+    padding: 20px;
+}
+
+.tile3 img {
+    position: absolute;
+    padding: 20px;
+}
+
+.tile4 img {
+    position: absolute;
+    padding: 20px;
+}
+
+.tile1 h1 {
+    z-index: 1;
+    top: 10px;
+    left: 105px;  
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    /* or 29px */
+    
+    text-transform: capitalize;
+    
+    color: #00D36E;
+}
+
+.tile2 h1 {
+    z-index: 1;
+    top: 10px;
+    left: 105px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    /* or 29px */
+    
+    text-transform: capitalize;
+    
+    color: #00D36E;
+}
+
+.tile3 h1 {
+    z-index: 1;
+    top: 10px;
+    left: 105px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    /* or 29px */
+    
+    text-transform: capitalize;
+    
+    color: #00D36E;
+}
+
+.tile4 h1 {
+    z-index: 1;
+    top: 10px;
+    left: 105px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    /* or 29px */
+    
+    text-transform: capitalize;
+    
+    color: #00D36E;
+}
+
+.tile1 p {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: -10px;
+    width: 239px;
+    height: 132px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    background-color: transparent;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+.tile2 p {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: -10px;
+    width: 239px;
+    height: 132px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    background-color: transparent;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+.tile3 p {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: -10px;
+    width: 239px;
+    height: 132px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    background-color: transparent;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.tile4 p {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: -10px;
+    width: 239px;
+    height: 132px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    background-color: transparent;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
