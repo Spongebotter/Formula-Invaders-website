@@ -2,7 +2,8 @@
 
 html {
 
-    background-color: #3A3A3A;
+    background-color: #1F2125
+    ;
     overflow-x: hidden;
 }
 
@@ -417,3 +418,111 @@ h2 {
     
     color: #FFFFFF;
 }
+
+.teams h1 {
+
+    position: absolute;
+    left: 350px;
+    right: 39.79%;
+    top: 1660px;
+    bottom: 45.57%;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 110%;
+    /* or 50px */
+    
+    text-transform: capitalize;
+
+}
+
+.teams p {
+    position: absolute;
+    width: 597px;
+    height: 128px;
+    left: 322px;
+    top: 1770px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    /* or 20px */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+
+.moji-img {
+    position: absolute;
+    top: 1900px;
+    display: flex;
+    left: 275px;
+
+}
+
+
+.moji-img img {
+
+    width: 125px;
+    height: auto;
+    left: 600px;
+    top: 2000px;
+    margin: 35px;
+
+}
+
+
+
+
+.Aditya {
+
+    position: absolute;
+    height: 220px;
+    width: 174px;
+    left: 280px;
+    top: 2109px;
+    border-radius: 0px;
+ }
+
+.Musa {
+
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 609px;
+    top: 2109px;
+    border-radius: 0px;
+}
+
+.Kaleb {
+
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 884px;
+    top: 2109px;
+    border-radius: 0px;
+}
+
+.Arsh {
+
+position:absolute;
+height: 46px;
+width: 46px;
+left: 1135px;
+top: 2109px;
+border-radius: 0px;
+
+
+
+
+    
+}
+
+
