@@ -442,7 +442,7 @@ h2 {
     position: absolute;
     width: 597px;
     height: 128px;
-    left: 322px;
+    left: 350px;
     top: 1770px;
     
     font-family: Orbitron;
@@ -461,68 +461,125 @@ h2 {
 .moji-img {
     position: absolute;
     top: 1900px;
-    display: flex;
-    left: 275px;
+    left: 10px;
+
 
 }
 
-
-.moji-img img {
-
-    width: 125px;
+.aditya-moji img {
+    position: absolute;
+    left: 350px;
+    width: 150px;
     height: auto;
-    left: 600px;
-    top: 2000px;
-    margin: 35px;
 
 }
 
+.musa-moji img {
+    top: 15px;
+    position: absolute;
+    left: 550px;
+    width: 110px;
+    height: auto;
+}
+
+.kaleb-moji img {
+    top: 15px;
+    position: absolute;
+    left: 750px;
+    width: 140px;
+    height: auto;
+}
+
+.arsh-moji img {
+    position: absolute;
+    top: -7 px;
+    left: 935px;
+    width: 155px;
+    height: auto;
+}
+
+#boxes {
+    position: absolute;
+    display: flex;
+    top: 2080px;
+    left: 200px;
+
+
+}
+
+#boxes img {
+    height: auto;
+    width: 200px;
+    margin: 0 27px;
+}
 
 
 
 .Aditya {
 
-    position: absolute;
-    height: 220px;
-    width: 174px;
-    left: 280px;
-    top: 2109px;
-    border-radius: 0px;
+    position: absolute; 
+    height: auto;
+    width: 115px;
+    left: 380px;
+    top: 2117px;
  }
 
 .Musa {
 
     position: absolute;
-    height: 35px;
-    width: 35px;
-    left: 609px;
-    top: 2109px;
-    border-radius: 0px;
+    height: auto;
+    width: 22px;
+    left: 630px;
+    top: 2115px;
 }
 
 .Kaleb {
 
     position: absolute;
-    height: 35px;
-    width: 35px;
+    height:auto;
+    width: 27px;
     left: 884px;
-    top: 2109px;
-    border-radius: 0px;
+    top: 2115px;
 }
 
 .Arsh {
 
 position:absolute;
-height: 46px;
+height:auto;
 width: 46px;
 left: 1135px;
 top: 2109px;
-border-radius: 0px;
+}
 
-
-
-
+.team_info h1{
+    position: absolute;
+    top: -4px;
+    left: -100px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    /* or 20px */
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
     
 }
 
+.team_info p {
+    position: absolute;
+    top: 23px;
+    left: -135px;
+    width: 165px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+    text-transform: capitalize;
+    
+    color: #DBDBDB;
+}
 
