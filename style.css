@@ -1,6 +1,7 @@
 /* NAV styling */
 
 html {
+    position: relative;
 
     background-color: #1F2125
     ;
@@ -17,6 +18,12 @@ a:hover {
     cursor:pointer;  
 }
 
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 nav {
 position: absolute;
@@ -27,6 +34,7 @@ top: 0px;
 
 background: #181818;
 }
+
 
 nav img {
 
@@ -583,3 +591,143 @@ top: 2109px;
     color: #DBDBDB;
 }
 
+
+.game {
+    position: absolute;
+    width: 100%;
+    height: 710px;
+    left: 0px;
+    top: 2350px;
+    background: #16171B;
+    font-family: Orbitron; 
+
+}
+
+.game .faq {
+    color: #FFFFFF;
+}
+
+.sec-1 {
+    
+    position:absolute;
+    height: 20px;
+    width: 627px;
+    left: 671px;
+    top: 220px;
+}
+
+.sec-2 {
+
+    position:absolute;
+    height: 20px;
+    width: 434px;
+    left: 671px;
+    top: 260px; 
+}
+
+.sec-3{
+
+    position:absolute;
+    height: 20px;
+    width: 613px;
+    left: 671px;
+    top: 300px;
+}
+
+.sec-4{
+
+    position:absolute;
+    height: 20px;
+    width: 340px;
+    left: 671px;
+    top: 340px;
+
+
+}
+
+.sec-5 {
+
+    position:absolute;
+    height: 20px;
+    width: 453px;
+    left: 671px;
+    top: 380px;    
+}
+
+.sec-6{
+
+    position:absolute;
+    height: 20px;
+    width: 580px;
+    left: 671px;
+    top: 420px;    
+}
+
+.sec-7{
+
+    position:absolute;
+    height: 20px;
+    width: 235px;
+    left: 671px;
+    top: 460px;    
+}
+
+hr {
+    width: 700px;
+    margin: 10px;
+    
+}
+
+.game-btn {
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 633px;
+    top: 450px;
+}
+
+.game-btn p {
+    position: absolute;
+    width: 52px;
+    height: 22px;
+    bottom: 350px;
+    padding: 8px 38px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 110%;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #02B25E;
+    background: #1F2125;
+    border-radius: 44px;
+}
+
+.github {
+    position:absolute;
+    width: 134px;
+    height: 32px;
+    left: 633px;
+    top: 600px;
+}
+
+.github a {
+    padding: 8px 38px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 110%;
+    /* or 17px */
+    
+    text-transform: capitalize;
+    
+    color: #02B25E;
+    background: #1F2125;
+    border-radius: 44px;
+}
